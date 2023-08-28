@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS myapp;
+
+CREATE DATABASE myapp;
+USE myapp;
+
+CREATE TABLE IF NOT EXISTS lists (
+    id INT AUTO_INCREMENT,
+    value TEXT,
+    PRIMARY KEY (id)
+);
